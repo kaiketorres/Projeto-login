@@ -8,7 +8,7 @@
 }
 
 body,html{
-    background-color: #5f2c82;
+    background-image: linear-gradient(to top, #0038AB, #995094,#D6036E);
     height: 100vh;
     width: 100vw;
 }
@@ -57,7 +57,7 @@ div#formulario > p {
 }
 
 form > div.campo{
-    background-color: #5f2c82;
+    background-image: linear-gradient(to left, #995094,#D6036E);
     display: block;
     width: 100%;
     height: 40px;
@@ -78,7 +78,7 @@ div.campo > span {
 }
 
 div.campo > input{
-    background-color: #49a09d;
+    background-image: linear-gradient(to right, #995094,#D6036E);
     font-size: 1em;
     width: calc(100% - 50px);
     height: 80%;
@@ -98,7 +98,7 @@ form > input{
     width: 100%;
     color: white;
     height: 40px;
-    background-color: #49a09d;
+    background-image: linear-gradient(to left,#995094,#D6036E);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -121,8 +121,8 @@ form > .botao{
     padding-top: 5px;
     margin-top: 5px;
     background-color: #ffffff;
-    color: #397c7a; 
-    border: 1px solid #49a09d;  
+    color: #D6036E; 
+    border: 1px solid #995094;  
     border-radius: 5px;
     text-decoration: none;
 }
