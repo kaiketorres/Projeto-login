@@ -28,9 +28,8 @@ section#login{
     overflow: hidden;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356); 
-
+    transform: translate(-50%,-50%);
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
@@ -71,16 +70,42 @@ form .campo label{
     display: none;
 }
 
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input{
+    background-color: #49a09d;
+    font-size: 1em;
+    width: calc(100% - 50px);
+    height: 80%;
+    border: 0px;
+    border-radius: 8px; 
+    padding: 4px;
+    transform: translateY(-12px);  
+}
+
+div.campo > input:focus-within{
+    background-color: white;
+}
+
 form > input{
     display: block;
     font-size: 1em;
     width: 100%;
+    color: white;
     height: 40px;
     background-color: #49a09d;
-    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+::placeholder{
+    color:white
 }
 
 form > input:hover{
